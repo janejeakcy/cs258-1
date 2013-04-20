@@ -1,3 +1,4 @@
+import time
 from mininet.topo import Topo
 from mininet.net import Mininet
 from mininet.link import TCLink
@@ -58,7 +59,12 @@ def topoTest():
     for i in range(1, 17):
         serverName = 'hs'+ str(i)
         serverList.append(net.getNodeByName(serverName))
+    clientList = []
+    for i in range(1, 65):
+        clientName = 'hc'+ str(i)
+        clientList.append(net.getNodeByName(clientName))
     
+
     it1List = []
     it2List = []
     cIpList = []
@@ -92,6 +98,17 @@ def topoTest():
         server.cmd('route add -net ' + cIp + ' netmask 255.255.255.255  dev ' + str(it1))
         c.cmd('route del -net ' + '125.0.0.0' ' netmask 255.0.0.0  dev ' + str(it2))
         c.cmd('route add -net ' + sIp + ' netmask 255.255.255.255  dev ' + str(it2))
+        
+        server.cmd('cd ~/proj/host/mongoose')
+        server.cmd('./mongoose ' + str(i + 1) + ' 125.125.125.' + str(i) + ' &')
+
+    #Test Cases
+    for i in range(64):
+        client = clientList[i]
+        client.cmd('cd ~/proj/host')
+        client.cmd('./test.sh &')
+        time.sleep(2)
+
     CLI(net)
     net.stop()
 

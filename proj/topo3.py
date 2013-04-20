@@ -44,14 +44,15 @@ def topoTest():
 
   s2 = net.getNodeByName('h8')
   l1 = s2.linkTo(c0)
-  i1 = l1.intf1
-  i2 = l1.intf2
+  i11 = l1.intf1
+  i22 = l1.intf2
   s2.setIP('123.123.123.2', 8, i1)
   c0.setIP('123.123.125.2', 8, i2)
 
   net.start()
-  s1.cmd('route add -net 123.123.125.1 netmask 255.255.255.255 dev' + str(i1))
-  s2.cmd('route add -net 123.123.125.2 netmask 255.255.255.255 dev' + str(i1))
+  s1.cmd('route add -net 123.123.125.1 netmask 255.255.255.255 dev ' + str(i1))
+  s1.cmd('route add -net 123.123.125.1 netmask 255.255.255.255 dev ' + str(i1))
+  s2.cmd('route add -net 123.123.125.2 netmask 255.255.255.255 dev ' + str(i11))  s2.cmd('route add -net 123.123.125.2 netmask 255.255.255.255 dev ' + str(i11))
 
   CLI(net)
   net.stop()

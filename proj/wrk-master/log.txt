@@ -1,0 +1,8 @@
+Running 25s test @ http://10.0.0.65:8080/main.c
+  1 threads and 5 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   572.12ms  436.96ms   1.85s    67.76%
+    Req/Sec     0.00      0.00     0.00    100.00%
+  201 requests in 25.10s, 5.58MB read
+Requests/sec:      8.01
+Transfer/sec:    227.72KB

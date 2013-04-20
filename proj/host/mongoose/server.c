@@ -50,6 +50,7 @@ void end_request_handler(struct mg_connection *conn, int status_code){
 int main(int argc, char** argv) {
 	struct mg_context *ctx;
 	struct mg_callbacks callbacks;
+    int i;
 
 	const char *options[] = {"listening_ports", "8080", NULL};
 
@@ -74,7 +75,10 @@ int main(int argc, char** argv) {
 
 	// Wait until user hits "enter". Server is running in separate thread.
 	// Navigating to http://localhost:8080 will invoke begin_request_handler().
-	getchar();
+    while (1)
+    {
+        i++;
+    }
 
 	// Stop the server.
 	mg_stop(ctx);
