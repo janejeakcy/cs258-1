@@ -1,0 +1,835 @@
+Running 10s test @ http://10.0.0.65:8080/test4.dat
+  2 threads and 2 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   113.72ms   52.48ms 251.74ms   77.69%
+    Req/Sec     0.00      0.00     0.00    100.00%
+  83 requests in 10.00s, 3.29MB read
+Requests/sec:      8.30
+Transfer/sec:    337.26KB
+Running 10s test @ http://10.0.0.65:8080/test4.dat
+  2 threads and 2 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   111.66ms   46.00ms 230.27ms   68.46%
+    Req/Sec     0.00      0.00     0.00    100.00%
+  73 requests in 10.00s, 2.89MB read
+Requests/sec:      7.30
+Transfer/sec:    295.93KB
+Running 10s test @ http://10.0.0.65:8080/test4.dat
+  2 threads and 2 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   124.72ms   52.65ms 261.67ms   66.41%
+    Req/Sec     0.00      0.00     0.00    100.00%
+  62 requests in 10.00s, 2.43MB read
+Requests/sec:      6.20
+Transfer/sec:    249.23KB
+Running 10s test @ http://10.0.0.65:8080/test4.dat
+  2 threads and 2 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   116.98ms   47.56ms 263.36ms   69.47%
+    Req/Sec     0.00      0.00     0.00    100.00%
+  58 requests in 10.00s, 2.28MB read
+Requests/sec:      5.80
+Transfer/sec:    233.16KB
+Running 10s test @ http://10.0.0.65:8080/test4.dat
+  2 threads and 2 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   132.97ms   57.65ms 261.00ms   67.18%
+    Req/Sec     0.00      0.00     0.00    100.00%
+  50 requests in 10.00s, 1.96MB read
+Requests/sec:      5.00
+Transfer/sec:    200.99KB
+Running 10s test @ http://10.0.0.65:8080/test4.dat
+  2 threads and 2 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   125.62ms   54.22ms 226.99ms   71.43%
+    Req/Sec     0.00      0.00     0.00    100.00%
+  47 requests in 10.00s, 1.85MB read
+Requests/sec:      4.70
+Transfer/sec:    188.94KB
+Running 10s test @ http://10.0.0.65:8080/test4.dat
+  2 threads and 2 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   160.96ms   81.18ms 326.58ms   70.37%
+    Req/Sec     0.00      0.00     0.00    100.00%
+  42 requests in 10.00s, 1.69MB read
+Requests/sec:      4.20
+Transfer/sec:    172.90KB
+Running 10s test @ http://10.0.0.65:8080/test4.dat
+  2 threads and 2 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   167.06ms   76.66ms 323.44ms   64.44%
+    Req/Sec     0.00      0.00     0.00    100.00%
+  41 requests in 10.00s, 1.61MB read
+Requests/sec:      4.10
+Transfer/sec:    164.82KB
+Running 10s test @ http://10.0.0.65:8080/test4.dat
+  2 threads and 2 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   122.26ms   56.97ms 261.03ms   73.48%
+    Req/Sec     0.00      0.00     0.00    100.00%
+  45 requests in 10.01s, 1.77MB read
+Requests/sec:      4.50
+Transfer/sec:    180.85KB
+Running 10s test @ http://10.0.0.65:8080/test4.dat
+  2 threads and 2 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   151.23ms   60.25ms 267.86ms   70.00%
+    Req/Sec     0.00      0.00     0.00    100.00%
+  41 requests in 10.00s, 1.61MB read
+Requests/sec:      4.10
+Transfer/sec:    164.84KB
+Running 10s test @ http://10.0.0.65:8080/test4.dat
+  2 threads and 2 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   113.55ms   54.06ms 242.66ms   63.16%
+    Req/Sec     0.00      0.00     0.00    100.00%
+  41 requests in 10.00s, 1.61MB read
+Requests/sec:      4.10
+Transfer/sec:    164.83KB
+Running 10s test @ http://10.0.0.65:8080/test4.dat
+  2 threads and 2 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   123.54ms   55.99ms 303.86ms   79.10%
+    Req/Sec     0.00      0.00     0.00    100.00%
+  40 requests in 10.35s, 1.57MB read
+Requests/sec:      3.87
+Transfer/sec:    155.42KB
+Running 10s test @ http://10.0.0.65:8080/test4.dat
+  2 threads and 2 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   175.01ms   67.62ms 350.03ms   82.44%
+    Req/Sec     0.00      0.00     0.00    100.00%
+  36 requests in 10.00s, 1.41MB read
+Requests/sec:      3.60
+Transfer/sec:    144.72KB
+Running 10s test @ http://10.0.0.65:8080/test4.dat
+  2 threads and 2 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   148.69ms   68.00ms 297.77ms   77.78%
+    Req/Sec     0.00      0.00     0.00    100.00%
+  36 requests in 10.00s, 1.44MB read
+Requests/sec:      3.60
+Transfer/sec:    147.07KB
+Running 10s test @ http://10.0.0.65:8080/test4.dat
+  2 threads and 2 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   162.31ms   82.59ms 382.41ms   78.79%
+    Req/Sec     0.00      0.00     0.00    100.00%
+  34 requests in 10.00s, 1.34MB read
+Requests/sec:      3.40
+Transfer/sec:    136.67KB
+Running 10s test @ http://10.0.0.65:8080/test4.dat
+  2 threads and 2 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   129.56ms   63.83ms 271.15ms   73.85%
+    Req/Sec     0.00      0.00     0.00    100.00%
+  34 requests in 10.00s, 1.34MB read
+Requests/sec:      3.40
+Transfer/sec:    136.69KB
+Running 10s test @ http://10.0.0.65:8080/test4.dat
+  2 threads and 2 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   119.96ms   66.56ms 239.24ms   64.71%
+    Req/Sec     0.00      0.00     0.00    100.00%
+  32 requests in 10.00s, 1.26MB read
+Requests/sec:      3.20
+Transfer/sec:    128.63KB
+Running 10s test @ http://10.0.0.65:8080/test4.dat
+  2 threads and 2 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   137.45ms   54.38ms 219.39ms   67.16%
+    Req/Sec     0.00      0.00     0.00    100.00%
+  27 requests in 10.00s, 1.06MB read
+Requests/sec:      2.70
+Transfer/sec:    108.52KB
+Running 10s test @ http://10.0.0.65:8080/test4.dat
+  2 threads and 2 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   153.64ms   76.34ms 338.06ms   65.93%
+    Req/Sec     0.00      0.00     0.00    100.00%
+  33 requests in 10.00s, 1.30MB read
+Requests/sec:      3.30
+Transfer/sec:    132.67KB
+Running 10s test @ http://10.0.0.65:8080/test4.dat
+  2 threads and 2 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   151.87ms   51.43ms 263.81ms   75.37%
+    Req/Sec     0.00      0.00     0.00    100.00%
+  22 requests in 10.00s, 0.86MB read
+  Socket errors: connect 0, read 0, write 0, timeout 2
+Requests/sec:      2.20
+Transfer/sec:     88.43KB
+Running 10s test @ http://10.0.0.65:8080/test4.dat
+  2 threads and 2 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   133.67ms   53.64ms 252.00ms   69.17%
+    Req/Sec     0.00      0.00     0.00    100.00%
+  34 requests in 10.00s, 1.35MB read
+Requests/sec:      3.40
+Transfer/sec:    138.63KB
+Running 10s test @ http://10.0.0.65:8080/test4.dat
+  2 threads and 2 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   150.90ms   63.04ms 335.22ms   76.34%
+    Req/Sec     0.00      0.00     0.00    100.00%
+  34 requests in 10.00s, 1.34MB read
+Requests/sec:      3.40
+Transfer/sec:    136.69KB
+Running 10s test @ http://10.0.0.65:8080/test4.dat
+  2 threads and 2 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   172.44ms   65.04ms 357.44ms   87.50%
+    Req/Sec     0.00      0.00     0.00    100.00%
+  14 requests in 10.00s, 562.95KB read
+  Socket errors: connect 0, read 0, write 0, timeout 4
+Requests/sec:      1.40
+Transfer/sec:     56.28KB
+Running 10s test @ http://10.0.0.65:8080/test4.dat
+  2 threads and 2 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   157.98ms   64.25ms 236.96ms   86.36%
+    Req/Sec     0.00      0.00     0.00    100.00%
+  10 requests in 10.00s, 402.11KB read
+  Socket errors: connect 0, read 0, write 0, timeout 6
+Requests/sec:      1.00
+Transfer/sec:     40.21KB
+Running 10s test @ http://10.0.0.65:8080/test4.dat
+  2 threads and 2 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   137.47ms   65.92ms 265.43ms   61.19%
+    Req/Sec     0.00      0.00     0.00    100.00%
+  32 requests in 10.00s, 1.26MB read
+Requests/sec:      3.20
+Transfer/sec:    128.63KB
+Running 10s test @ http://10.0.0.65:8080/test4.dat
+  2 threads and 2 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   155.50ms   70.90ms 311.05ms   75.76%
+    Req/Sec     0.00      0.00     0.00    100.00%
+  30 requests in 10.00s, 1.19MB read
+Requests/sec:      3.00
+Transfer/sec:    121.33KB
+Running 10s test @ http://10.0.0.65:8080/test4.dat
+  2 threads and 2 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   102.28ms   28.50ms 122.88ms   94.78%
+    Req/Sec     0.00      0.00     0.00    100.00%
+  2 requests in 10.00s, 80.42KB read
+  Socket errors: connect 0, read 0, write 0, timeout 8
+Requests/sec:      0.20
+Transfer/sec:      8.04KB
+Running 10s test @ http://10.0.0.65:8080/test4.dat
+  2 threads and 2 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   143.36ms   68.91ms 288.15ms   70.90%
+    Req/Sec     0.00      0.00     0.00    100.00%
+  31 requests in 10.00s, 1.24MB read
+Requests/sec:      3.10
+Transfer/sec:    127.03KB
+Running 10s test @ http://10.0.0.65:8080/test4.dat
+  2 threads and 2 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   120.31ms   52.86ms 229.85ms   68.18%
+    Req/Sec     0.00      0.00     0.00    100.00%
+  33 requests in 10.00s, 1.30MB read
+Requests/sec:      3.30
+Transfer/sec:    132.67KB
+Running 10s test @ http://10.0.0.65:8080/test4.dat
+  2 threads and 2 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency     0.00us    0.00us   0.00us  100.00%
+    Req/Sec     0.00      0.00     0.00    100.00%
+  0 requests in 10.01s, 0.00B read
+  Socket errors: connect 0, read 0, write 0, timeout 8
+Requests/sec:      0.00
+Transfer/sec:       0.00B
+Running 10s test @ http://10.0.0.65:8080/test4.dat
+  2 threads and 2 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   144.94ms   78.57ms 294.35ms   68.46%
+    Req/Sec     0.00      0.00     0.00    100.00%
+  28 requests in 10.00s, 1.10MB read
+Requests/sec:      2.80
+Transfer/sec:    112.56KB
+Running 10s test @ http://10.0.0.65:8080/test4.dat
+  2 threads and 2 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   163.47ms   67.09ms 294.36ms   70.15%
+    Req/Sec     0.00      0.00     0.00    100.00%
+  29 requests in 10.00s, 1.14MB read
+Requests/sec:      2.90
+Transfer/sec:    116.57KB
+Running 10s test @ http://10.0.0.65:8080/test4.dat
+  2 threads and 2 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   139.88ms   65.19ms 320.61ms   75.76%
+    Req/Sec     0.00      0.00     0.00    100.00%
+  31 requests in 10.00s, 1.22MB read
+Requests/sec:      3.10
+Transfer/sec:    124.60KB
+Running 10s test @ http://10.0.0.65:8080/test4.dat
+  2 threads and 2 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   123.12ms   48.36ms 212.61ms   71.97%
+    Req/Sec     0.00      0.00     0.00    100.00%
+  29 requests in 10.00s, 1.14MB read
+Requests/sec:      2.90
+Transfer/sec:    116.57KB
+Running 10s test @ http://10.0.0.65:8080/test4.dat
+  2 threads and 2 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency     0.00us    0.00us   0.00us  100.00%
+    Req/Sec     0.00      0.00     0.00    100.00%
+  0 requests in 10.00s, 0.00B read
+  Socket errors: connect 0, read 0, write 0, timeout 8
+Requests/sec:      0.00
+Transfer/sec:       0.00B
+Running 10s test @ http://10.0.0.65:8080/test4.dat
+  2 threads and 2 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   140.24ms   66.63ms 282.97ms   53.96%
+    Req/Sec     0.00      0.00     0.00    100.00%
+  30 requests in 10.00s, 1.18MB read
+Requests/sec:      3.00
+Transfer/sec:    120.61KB
+Running 10s test @ http://10.0.0.65:8080/test4.dat
+  2 threads and 2 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   150.78ms   67.93ms 293.27ms   69.17%
+    Req/Sec     0.00      0.00     0.00    100.00%
+  29 requests in 10.00s, 1.14MB read
+Requests/sec:      2.90
+Transfer/sec:    116.58KB
+Running 10s test @ http://10.0.0.65:8080/test4.dat
+  2 threads and 2 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency     0.00us    0.00us   0.00us  100.00%
+    Req/Sec     0.00      0.00     0.00    100.00%
+  0 requests in 10.00s, 0.00B read
+  Socket errors: connect 0, read 0, write 0, timeout 8
+Requests/sec:      0.00
+Transfer/sec:       0.00B
+Running 10s test @ http://10.0.0.65:8080/test4.dat
+  2 threads and 2 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   139.14ms   77.39ms 360.16ms   67.42%
+    Req/Sec     0.00      0.00     0.00    100.00%
+  26 requests in 10.00s, 1.02MB read
+Requests/sec:      2.60
+Transfer/sec:    104.51KB
+Running 10s test @ http://10.0.0.65:8080/test4.dat
+  2 threads and 2 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   120.95ms   60.85ms 241.28ms   70.90%
+    Req/Sec     0.00      0.00     0.00    100.00%
+  30 requests in 10.00s, 1.18MB read
+Requests/sec:      3.00
+Transfer/sec:    120.59KB
+Running 10s test @ http://10.0.0.65:8080/test4.dat
+  2 threads and 2 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   143.25ms   69.63ms 329.81ms   78.26%
+    Req/Sec     0.00      0.00     0.00    100.00%
+  24 requests in 10.00s, 0.94MB read
+Requests/sec:      2.40
+Transfer/sec:     96.48KB
+Running 10s test @ http://10.0.0.65:8080/test4.dat
+  2 threads and 2 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency     0.00us    0.00us   0.00us  100.00%
+    Req/Sec     0.00      0.00     0.00    100.00%
+  0 requests in 10.00s, 0.00B read
+  Socket errors: connect 0, read 0, write 0, timeout 8
+Requests/sec:      0.00
+Transfer/sec:       0.00B
+Running 10s test @ http://10.0.0.65:8080/test4.dat
+  2 threads and 2 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   178.29ms   88.54ms 357.00ms   66.92%
+    Req/Sec     0.00      0.00     0.00    100.00%
+  19 requests in 10.00s, 764.01KB read
+  Socket errors: connect 0, read 0, write 0, timeout 2
+Requests/sec:      1.90
+Transfer/sec:     76.38KB
+Running 10s test @ http://10.0.0.65:8080/test4.dat
+  2 threads and 2 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   166.03ms   77.69ms 352.23ms   76.12%
+    Req/Sec     0.00      0.00     0.00    100.00%
+  30 requests in 10.00s, 1.18MB read
+Requests/sec:      3.00
+Transfer/sec:    120.62KB
+Running 10s test @ http://10.0.0.65:8080/test4.dat
+  2 threads and 2 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   161.69ms   56.75ms 306.15ms   73.13%
+    Req/Sec     0.00      0.00     0.00    100.00%
+  13 requests in 10.01s, 522.74KB read
+  Socket errors: connect 0, read 0, write 0, timeout 4
+Requests/sec:      1.30
+Transfer/sec:     52.24KB
+Running 10s test @ http://10.0.0.65:8080/test4.dat
+  2 threads and 2 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   145.75ms   89.86ms 309.01ms   87.79%
+    Req/Sec     0.00      0.00     0.00    100.00%
+  8 requests in 10.00s, 321.69KB read
+  Socket errors: connect 0, read 0, write 0, timeout 6
+Requests/sec:      0.80
+Transfer/sec:     32.16KB
+Running 10s test @ http://10.0.0.65:8080/test4.dat
+  2 threads and 2 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   134.00ms   71.92ms 342.77ms   79.41%
+    Req/Sec     0.00      0.00     0.00    100.00%
+  35 requests in 10.00s, 1.37MB read
+Requests/sec:      3.50
+Transfer/sec:    140.70KB
+Running 10s test @ http://10.0.0.65:8080/test4.dat
+  2 threads and 2 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   167.58ms   50.39ms 248.83ms   88.64%
+    Req/Sec     0.00      0.00     0.00    100.00%
+  6 requests in 10.00s, 241.27KB read
+  Socket errors: connect 0, read 0, write 0, timeout 6
+Requests/sec:      0.60
+Transfer/sec:     24.12KB
+Running 10s test @ http://10.0.0.65:8080/test4.dat
+  2 threads and 2 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   140.18ms   63.15ms 295.85ms   70.90%
+    Req/Sec     0.00      0.00     0.00    100.00%
+  34 requests in 10.00s, 1.36MB read
+Requests/sec:      3.40
+Transfer/sec:    138.93KB
+Running 10s test @ http://10.0.0.65:8080/test4.dat
+  2 threads and 2 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   163.20ms   77.89ms 341.35ms   67.67%
+    Req/Sec     0.00      0.00     0.00    100.00%
+  35 requests in 10.00s, 1.37MB read
+Requests/sec:      3.50
+Transfer/sec:    140.69KB
+Running 10s test @ http://10.0.0.65:8080/test4.dat
+  2 threads and 2 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency     0.00us    0.00us   0.00us  100.00%
+    Req/Sec     0.00      0.00     0.00    100.00%
+  0 requests in 10.00s, 0.00B read
+  Socket errors: connect 0, read 0, write 0, timeout 8
+Requests/sec:      0.00
+Transfer/sec:       0.00B
+Running 10s test @ http://10.0.0.65:8080/test4.dat
+  2 threads and 2 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency     0.00us    0.00us   0.00us  100.00%
+    Req/Sec     0.00      0.00     0.00    100.00%
+  0 requests in 10.00s, 0.00B read
+  Socket errors: connect 0, read 0, write 0, timeout 8
+Requests/sec:      0.00
+Transfer/sec:       0.00B
+Running 10s test @ http://10.0.0.65:8080/test4.dat
+  2 threads and 2 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency     0.00us    0.00us   0.00us  100.00%
+    Req/Sec     0.00      0.00     0.00    100.00%
+  0 requests in 10.00s, 0.00B read
+  Socket errors: connect 0, read 0, write 0, timeout 8
+Requests/sec:      0.00
+Transfer/sec:       0.00B
+Running 10s test @ http://10.0.0.65:8080/test4.dat
+  2 threads and 2 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   125.04ms   51.39ms 227.37ms   71.43%
+    Req/Sec     0.00      0.00     0.00    100.00%
+  37 requests in 10.01s, 1.45MB read
+Requests/sec:      3.70
+Transfer/sec:    148.70KB
+Running 10s test @ http://10.0.0.65:8080/test4.dat
+  2 threads and 2 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   122.46ms   63.98ms 291.64ms   75.57%
+    Req/Sec     0.00      0.00     0.00    100.00%
+  36 requests in 10.00s, 1.41MB read
+Requests/sec:      3.60
+Transfer/sec:    144.74KB
+Running 10s test @ http://10.0.0.65:8080/test4.dat
+  2 threads and 2 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   148.67ms   73.21ms 297.38ms   68.94%
+    Req/Sec     0.00      0.00     0.00    100.00%
+  32 requests in 10.00s, 1.26MB read
+Requests/sec:      3.20
+Transfer/sec:    128.64KB
+Running 10s test @ http://10.0.0.65:8080/test4.dat
+  2 threads and 2 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   166.91ms   92.23ms 370.63ms   59.56%
+    Req/Sec     0.00      0.00     0.00    100.00%
+  28 requests in 10.00s, 1.10MB read
+Requests/sec:      2.80
+Transfer/sec:    112.55KB
+Running 10s test @ http://10.0.0.65:8080/test4.dat
+  2 threads and 2 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   182.41ms   86.45ms 350.53ms   72.06%
+    Req/Sec     0.00      0.00     0.00    100.00%
+  24 requests in 10.00s, 0.94MB read
+  Socket errors: connect 0, read 0, write 0, timeout 2
+Requests/sec:      2.40
+Transfer/sec:     96.49KB
+Running 10s test @ http://10.0.0.65:8080/test4.dat
+  2 threads and 2 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency     0.00us    0.00us   0.00us  100.00%
+    Req/Sec     0.00      0.00     0.00    100.00%
+  0 requests in 10.00s, 0.00B read
+  Socket errors: connect 0, read 0, write 0, timeout 8
+Requests/sec:      0.00
+Transfer/sec:       0.00B
+Running 10s test @ http://10.0.0.65:8080/test4.dat
+  2 threads and 2 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   132.99ms   53.03ms 229.44ms   61.54%
+    Req/Sec     0.00      0.00     0.00    100.00%
+  36 requests in 10.00s, 1.41MB read
+Requests/sec:      3.60
+Transfer/sec:    144.72KB
+Running 10s test @ http://10.0.0.65:8080/test4.dat
+  2 threads and 2 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency     0.00us    0.00us   0.00us  100.00%
+    Req/Sec     0.00      0.00     0.00    100.00%
+  0 requests in 10.00s, 0.00B read
+  Socket errors: connect 0, read 0, write 0, timeout 8
+Requests/sec:      0.00
+Transfer/sec:       0.00B
+Running 10s test @ http://10.0.0.65:8080/test4.dat
+  2 threads and 2 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency     0.00us    0.00us   0.00us  100.00%
+    Req/Sec     0.00      0.00     0.00    100.00%
+  0 requests in 10.00s, 0.00B read
+  Socket errors: connect 0, read 0, write 0, timeout 8
+Requests/sec:      0.00
+Transfer/sec:       0.00B
+Running 10s test @ http://10.0.0.65:8080/test4.dat
+  2 threads and 2 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   182.02ms  114.43ms 382.43ms   59.23%
+    Req/Sec     0.00      0.00     0.00    100.00%
+  17 requests in 10.00s, 683.59KB read
+  Socket errors: connect 0, read 0, write 0, timeout 4
+Requests/sec:      1.70
+Transfer/sec:     68.34KB
+Running 10s test @ http://10.0.0.65:8080/test4.dat
+  2 threads and 2 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   132.71ms   63.88ms 302.39ms   75.00%
+    Req/Sec     0.00      0.00     0.00    100.00%
+  36 requests in 10.00s, 1.45MB read
+Requests/sec:      3.60
+Transfer/sec:    148.64KB
+Running 10s test @ http://10.0.0.65:8080/test4.dat
+  2 threads and 2 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency     0.00us    0.00us   0.00us  100.00%
+    Req/Sec     0.00      0.00     0.00    100.00%
+  0 requests in 10.00s, 0.00B read
+  Socket errors: connect 0, read 0, write 0, timeout 8
+Requests/sec:      0.00
+Transfer/sec:       0.00B
+Running 10s test @ http://10.0.0.65:8080/test4.dat
+  2 threads and 2 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   139.48ms   65.75ms 338.59ms   77.61%
+    Req/Sec     0.00      0.00     0.00    100.00%
+  38 requests in 10.00s, 1.49MB read
+Requests/sec:      3.80
+Transfer/sec:    152.78KB
+Running 10s test @ http://10.0.0.65:8080/test4.dat
+  2 threads and 2 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency     0.00us    0.00us   0.00us  100.00%
+    Req/Sec     0.00      0.00     0.00    100.00%
+  0 requests in 10.00s, 0.00B read
+  Socket errors: connect 0, read 0, write 0, timeout 8
+Requests/sec:      0.00
+Transfer/sec:       0.00B
+Running 10s test @ http://10.0.0.65:8080/test4.dat
+  2 threads and 2 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency     0.00us    0.00us   0.00us  100.00%
+    Req/Sec     0.00      0.00     0.00    100.00%
+  0 requests in 10.00s, 0.00B read
+  Socket errors: connect 0, read 0, write 0, timeout 8
+Requests/sec:      0.00
+Transfer/sec:       0.00B
+Running 10s test @ http://10.0.0.65:8080/test4.dat
+  2 threads and 2 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   115.65ms   49.42ms 258.31ms   77.27%
+    Req/Sec     0.00      0.00     0.00    100.00%
+  38 requests in 10.01s, 1.51MB read
+Requests/sec:      3.80
+Transfer/sec:    154.25KB
+Running 10s test @ http://10.0.0.65:8080/test4.dat
+  2 threads and 2 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   158.43ms   69.82ms 388.05ms   81.34%
+    Req/Sec     0.00      0.00     0.00    100.00%
+  36 requests in 10.00s, 1.41MB read
+Requests/sec:      3.60
+Transfer/sec:    144.74KB
+Running 10s test @ http://10.0.0.65:8080/test4.dat
+  2 threads and 2 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency     0.00us    0.00us   0.00us  100.00%
+    Req/Sec     0.00      0.00     0.00    100.00%
+  0 requests in 10.00s, 0.00B read
+  Socket errors: connect 0, read 0, write 0, timeout 8
+Requests/sec:      0.00
+Transfer/sec:       0.00B
+Running 10s test @ http://10.0.0.65:8080/test4.dat
+  2 threads and 2 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   119.94ms   56.71ms 303.03ms   71.74%
+    Req/Sec     0.00      0.00     0.00    100.00%
+  39 requests in 10.80s, 1.55MB read
+Requests/sec:      3.61
+Transfer/sec:    147.32KB
+Running 10s test @ http://10.0.0.65:8080/test4.dat
+  2 threads and 2 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency     0.00us    0.00us   0.00us  100.00%
+    Req/Sec     0.00      0.00     0.00    100.00%
+  0 requests in 12.00s, 0.00B read
+  Socket errors: connect 0, read 0, write 0, timeout 9
+Requests/sec:      0.00
+Transfer/sec:       0.00B
+Running 10s test @ http://10.0.0.65:8080/test4.dat
+  2 threads and 2 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   143.77ms   62.71ms 262.31ms   70.37%
+    Req/Sec     0.00      0.00     0.00    100.00%
+  33 requests in 10.00s, 1.30MB read
+Requests/sec:      3.30
+Transfer/sec:    132.67KB
+Running 10s test @ http://10.0.0.65:8080/test4.dat
+  2 threads and 2 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   112.44ms   44.72ms 213.47ms   73.33%
+    Req/Sec     0.00      0.00     0.00    100.00%
+  35 requests in 10.00s, 1.39MB read
+Requests/sec:      3.50
+Transfer/sec:    141.79KB
+Running 10s test @ http://10.0.0.65:8080/test4.dat
+  2 threads and 2 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency     0.00us    0.00us   0.00us  100.00%
+    Req/Sec     0.00      0.00     0.00    100.00%
+  0 requests in 10.00s, 0.00B read
+  Socket errors: connect 0, read 0, write 0, timeout 8
+Requests/sec:      0.00
+Transfer/sec:       0.00B
+Running 10s test @ http://10.0.0.65:8080/test4.dat
+  2 threads and 2 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   126.91ms   53.45ms 237.51ms   78.68%
+    Req/Sec     0.00      0.00     0.00    100.00%
+  36 requests in 10.26s, 1.41MB read
+Requests/sec:      3.51
+Transfer/sec:    141.10KB
+Running 10s test @ http://10.0.0.65:8080/test4.dat
+  2 threads and 2 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   148.22ms   64.94ms 241.26ms   69.23%
+    Req/Sec     0.00      0.00     0.00    100.00%
+  30 requests in 10.00s, 1.18MB read
+Requests/sec:      3.00
+Transfer/sec:    120.62KB
+Running 10s test @ http://10.0.0.65:8080/test4.dat
+  2 threads and 2 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   131.00ms   61.22ms 301.13ms   69.92%
+    Req/Sec     0.00      0.00     0.00    100.00%
+  36 requests in 10.00s, 1.41MB read
+Requests/sec:      3.60
+Transfer/sec:    144.70KB
+Running 10s test @ http://10.0.0.65:8080/test4.dat
+  2 threads and 2 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   116.04ms   60.06ms 259.59ms   64.18%
+    Req/Sec     0.00      0.00     0.00    100.00%
+  38 requests in 10.00s, 1.49MB read
+Requests/sec:      3.80
+Transfer/sec:    152.77KB
+Running 10s test @ http://10.0.0.65:8080/test4.dat
+  2 threads and 2 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   119.82ms   54.22ms 251.92ms   69.50%
+    Req/Sec     0.00      0.00     0.00    100.00%
+  42 requests in 10.00s, 1.66MB read
+Requests/sec:      4.20
+Transfer/sec:    169.78KB
+Running 10s test @ http://10.0.0.65:8080/test4.dat
+  2 threads and 2 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   166.97ms  117.73ms 321.78ms   59.23%
+    Req/Sec     0.00      0.00     0.00    100.00%
+  8 requests in 10.00s, 321.69KB read
+  Socket errors: connect 0, read 0, write 0, timeout 6
+Requests/sec:      0.80
+Transfer/sec:     32.16KB
+Running 10s test @ http://10.0.0.65:8080/test4.dat
+  2 threads and 2 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   174.91ms   57.47ms 225.91ms   93.89%
+    Req/Sec     0.00      0.00     0.00    100.00%
+  7 requests in 10.00s, 281.48KB read
+  Socket errors: connect 0, read 0, write 0, timeout 6
+Requests/sec:      0.70
+Transfer/sec:     28.14KB
+Running 10s test @ http://10.0.0.65:8080/test4.dat
+  2 threads and 2 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency     0.00us    0.00us   0.00us  100.00%
+    Req/Sec     0.00      0.00     0.00    100.00%
+  0 requests in 10.00s, 0.00B read
+  Socket errors: connect 0, read 0, write 0, timeout 8
+Requests/sec:      0.00
+Transfer/sec:       0.00B
+Running 10s test @ http://10.0.0.65:8080/test4.dat
+  2 threads and 2 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   115.87ms   66.04ms 347.22ms   78.95%
+    Req/Sec     0.00      0.00     0.00    100.00%
+  52 requests in 10.00s, 2.04MB read
+Requests/sec:      5.20
+Transfer/sec:    209.01KB
+Running 10s test @ http://10.0.0.65:8080/test4.dat
+  2 threads and 2 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency     0.00us    0.00us   0.00us  100.00%
+    Req/Sec     0.00      0.00     0.00    100.00%
+  0 requests in 10.01s, 0.00B read
+  Socket errors: connect 0, read 0, write 0, timeout 8
+Requests/sec:      0.00
+Transfer/sec:       0.00B
+Running 10s test @ http://10.0.0.65:8080/test4.dat
+  2 threads and 2 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   114.70ms   56.02ms 275.42ms   70.37%
+    Req/Sec     0.00      0.00     0.00    100.00%
+  52 requests in 10.00s, 2.04MB read
+Requests/sec:      5.20
+Transfer/sec:    209.04KB
+Running 10s test @ http://10.0.0.65:8080/test4.dat
+  2 threads and 2 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency     0.00us    0.00us   0.00us  100.00%
+    Req/Sec     0.00      0.00     0.00    100.00%
+  0 requests in 10.00s, 0.00B read
+  Socket errors: connect 0, read 0, write 0, timeout 8
+Requests/sec:      0.00
+Transfer/sec:       0.00B
+Running 10s test @ http://10.0.0.65:8080/test4.dat
+  2 threads and 2 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   125.28ms   65.62ms 272.30ms   68.42%
+    Req/Sec     0.00      0.00     0.00    100.00%
+  52 requests in 10.00s, 2.04MB read
+Requests/sec:      5.20
+Transfer/sec:    209.04KB
+Running 10s test @ http://10.0.0.65:8080/test4.dat
+  2 threads and 2 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency     0.00us    0.00us   0.00us  100.00%
+    Req/Sec     0.00      0.00     0.00    100.00%
+  0 requests in 10.00s, 0.00B read
+  Socket errors: connect 0, read 0, write 0, timeout 8
+Requests/sec:      0.00
+Transfer/sec:       0.00B
+Running 10s test @ http://10.0.0.65:8080/test4.dat
+  2 threads and 2 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   109.72ms   43.54ms 212.29ms   71.11%
+    Req/Sec     0.00      0.00     0.00    100.00%
+  58 requests in 10.00s, 2.28MB read
+Requests/sec:      5.80
+Transfer/sec:    233.11KB
+Running 10s test @ http://10.0.0.65:8080/test4.dat
+  2 threads and 2 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   130.15ms   54.11ms 246.17ms   66.67%
+    Req/Sec     0.00      0.00     0.00    100.00%
+  53 requests in 10.00s, 2.08MB read
+Requests/sec:      5.30
+Transfer/sec:    213.07KB
+Running 10s test @ http://10.0.0.65:8080/test4.dat
+  2 threads and 2 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   115.82ms   54.52ms 230.01ms   67.41%
+    Req/Sec     0.00      0.00     0.00    100.00%
+  55 requests in 10.10s, 2.16MB read
+Requests/sec:      5.45
+Transfer/sec:    219.05KB
+Running 10s test @ http://10.0.0.65:8080/test4.dat
+  2 threads and 2 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   126.78ms   43.86ms 205.60ms   77.78%
+    Req/Sec     0.00      0.00     0.00    100.00%
+  37 requests in 10.00s, 1.45MB read
+  Socket errors: connect 0, read 0, write 0, timeout 2
+Requests/sec:      3.70
+Transfer/sec:    148.75KB
+Running 10s test @ http://10.0.0.65:8080/test4.dat
+  2 threads and 2 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   106.75ms   41.62ms 257.10ms   78.36%
+    Req/Sec     0.00      0.00     0.00    100.00%
+  71 requests in 10.00s, 2.79MB read
+Requests/sec:      7.10
+Transfer/sec:    285.41KB
+Running 10s test @ http://10.0.0.65:8080/test4.dat
+  2 threads and 2 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   119.77ms   51.45ms 244.88ms   76.87%
+    Req/Sec     0.00      0.00     0.00    100.00%
+  32 requests in 12.00s, 1.26MB read
+  Socket errors: connect 0, read 0, write 0, timeout 4
+Requests/sec:      2.67
+Transfer/sec:    107.23KB
+Running 10s test @ http://10.0.0.65:8080/test4.dat
+  2 threads and 2 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency    76.37ms   48.92ms 234.75ms   79.10%
+    Req/Sec     0.00      0.00     0.00    100.00%
+  22 requests in 10.01s, 0.86MB read
+  Socket errors: connect 0, read 0, write 0, timeout 6
+Requests/sec:      2.20
+Transfer/sec:     88.42KB
+Running 10s test @ http://10.0.0.65:8080/test4.dat
+  2 threads and 2 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency    96.07ms   42.63ms 212.04ms   71.76%
+    Req/Sec     0.00      0.00     0.00    100.00%
+  74 requests in 10.00s, 2.93MB read
+Requests/sec:      7.40
+Transfer/sec:    299.82KB
+Running 10s test @ http://10.0.0.65:8080/test4.dat
+  2 threads and 2 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   112.69ms   46.34ms 220.35ms   66.92%
+    Req/Sec     0.00      0.00     0.00    100.00%
+  77 requests in 10.00s, 3.04MB read
+Requests/sec:      7.70
+Transfer/sec:    311.01KB
+Running 10s test @ http://10.0.0.65:8080/test4.dat
+  2 threads and 2 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   104.90ms   37.34ms 206.81ms   74.63%
+    Req/Sec     0.00      0.00     0.00    100.00%
+  87 requests in 10.00s, 3.42MB read
+Requests/sec:      8.70
+Transfer/sec:    349.68KB
