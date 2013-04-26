@@ -2,6 +2,8 @@
 #include <string.h>
 #include <stdlib.h>
 #include <arpa/inet.h>
+#include <pthread.h>
+#include <semaphore.h>
 #include "mongoose.h"
 #include "udp_client.h"
 
@@ -17,6 +19,7 @@ int balance = 0;
 struct socket_h *udp_h;
 char buffer[150];
 int namelen;
+sem_t mutex;
 
 void senddata(struct socket_h *hp, int balance)
 {
@@ -34,7 +37,9 @@ void print_request_info(struct mg_connection *conn) {
 
 int begin_request_handler(struct mg_connection *conn) {
 	print_request_info(conn);
-	balance ++;
+	sem_wait(&mutex);
+    balance ++;
+    sem_post(&mutex);
 	printf("blance = [%d]\n", balance);
 	senddata(udp_h, balance);
 	return 0;
@@ -42,7 +47,9 @@ int begin_request_handler(struct mg_connection *conn) {
 
 void end_request_handler(struct mg_connection *conn, int status_code){
 	print_request_info(conn);
-	balance --;
+	sem_wait(&mutex);
+    balance --;
+    sem_post(&mutex);
 	printf("blance = [%d]\n", balance);
 	senddata(udp_h, balance);
 }
@@ -53,6 +60,8 @@ int main(int argc, char** argv) {
     int i;
 
 	const char *options[] = {"listening_ports", "8080", NULL};
+
+    sem_init(&mutex, 0, 1);    
 
 	if(argc < 3){
 	    printf("%s(servername, POX IP)\n", argv[0]);
@@ -85,6 +94,6 @@ int main(int argc, char** argv) {
 
 	//close the udp handle
 	udp_close(udp_h);
-
+    sem_destroy(&mutex);
 	return 0;
 }
