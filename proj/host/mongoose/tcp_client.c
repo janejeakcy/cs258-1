@@ -20,7 +20,7 @@ include "tcp_client.h"
  * April 28, 2013
  */
  
-int port_num = 9940
+int port_num = 9940;
  
 struct socket_tcp_h
 {
