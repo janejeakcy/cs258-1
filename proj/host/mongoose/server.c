@@ -2,8 +2,6 @@
 #include <string.h>
 #include <stdlib.h>
 #include <arpa/inet.h>
-#include <pthread.h>
-#include <semaphore.h>
 #include "mongoose.h"
 #include "udp_client.h"
 
@@ -19,14 +17,21 @@ int balance = 0;
 struct socket_h *udp_h;
 char buffer[150];
 int namelen;
-sem_t mutex;
 
 void senddata(struct socket_h *hp, int balance)
 {
-	buffer[namelen] = ':';
-	sprintf(buffer + namelen + 1, "%d\0", balance);
-	printf("about to send:%s\n", buffer);
-	udp_send(hp, buffer);
+	int rv = 0;
+    int retry = 1;
+    buffer[namelen] = ':';
+    while(retry  <= 20)
+    {
+        memset(buffer + namelen + 1, 0, 20);
+	    sprintf(buffer + namelen + 1, "%d\0", balance);
+	    printf("try %d, about to send:%s\n", retry, buffer);
+	    if(udp_send(hp, buffer) >= 0)
+            break;
+        retry ++;
+    }
 }
 
 void print_request_info(struct mg_connection *conn) {
@@ -37,9 +42,7 @@ void print_request_info(struct mg_connection *conn) {
 
 int begin_request_handler(struct mg_connection *conn) {
 	print_request_info(conn);
-	sem_wait(&mutex);
-    balance ++;
-    sem_post(&mutex);
+	balance ++;
 	printf("blance = [%d]\n", balance);
 	senddata(udp_h, balance);
 	return 0;
@@ -47,9 +50,7 @@ int begin_request_handler(struct mg_connection *conn) {
 
 void end_request_handler(struct mg_connection *conn, int status_code){
 	print_request_info(conn);
-	sem_wait(&mutex);
-    balance --;
-    sem_post(&mutex);
+	balance --;
 	printf("blance = [%d]\n", balance);
 	senddata(udp_h, balance);
 }
@@ -60,8 +61,6 @@ int main(int argc, char** argv) {
     int i;
 
 	const char *options[] = {"listening_ports", "8080", NULL};
-
-    sem_init(&mutex, 0, 1);    
 
 	if(argc < 3){
 	    printf("%s(servername, POX IP)\n", argv[0]);
@@ -94,6 +93,6 @@ int main(int argc, char** argv) {
 
 	//close the udp handle
 	udp_close(udp_h);
-    sem_destroy(&mutex);
+
 	return 0;
 }

@@ -112,8 +112,11 @@ int udp_send(struct socket_h *ph, char* text)
 	//Get response from server
 	bytes_receive = recvfrom(ph->sock_id, (void *)(ph->buffer), size, 0, NULL, 0);
 	if(bytes_receive != size)
+    {
 		//error(ph, "Warrning: packet lost: %s\n", strerror(errno));
         printf("Warrning: packet lost: %s\n", strerror(errno));
+        return -1;
+    }
     return 0;
 }
 
